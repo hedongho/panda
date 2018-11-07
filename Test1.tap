@@ -1,0 +1,14 @@
+# TAP results for Test1
+ok 1 test_1 (test1.Test1)
+not ok 2 test_2 (test1.Test1)
+# Traceback (most recent call last):
+#   File "/usr/lib64/python2.7/unittest/case.py", line 369, in run
+#     testMethod()
+#   File "/root/tmp/panda/tests/test1.py", line 9, in test_2
+#     self.assertEqual(1, 2)
+#   File "/usr/lib64/python2.7/unittest/case.py", line 553, in assertEqual
+#     assertion_func(first, second, msg=msg)
+#   File "/usr/lib64/python2.7/unittest/case.py", line 546, in _baseAssertEqual
+#     raise self.failureException(msg)
+# AssertionError: 1 != 2
+1..2
